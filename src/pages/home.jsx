@@ -59,40 +59,50 @@ const Home = () => {
           <div className="circle"></div>
         </div>
       </div>
-      <div className="home_initial_section">
-        <div className="home_initial_section_left">
-          <div className="circle"></div>
 
-          <div className="content">
-            <h1>
-              sushi
-              <img
-                src="https://static.vecteezy.com/system/resources/previews/027/735/633/non_2x/sushi-platter-with-different-types-of-sushi-free-png.png"
-                alt="piatto_sushi_HeadTitle"
-              />
-              Samurai
-            </h1>
-          </div>
-          <div className="content_action">
+      <div className="section_why_us">
+        <h2>Why Sushi Samurai?</h2>
+        <div className="card_list">
+          <div className="card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/027/141/482/original/plate-of-sushi-created-with-generative-ai-png.png"
+              alt=""
+            />
+            <h4>Hot Deals & Offers</h4>
             <p>
-              Purest Sushi Experience Focusing on Premium Quality Ingredients
+              we want to show you same YO!love by giving you dicount off food in
+              our restaurant
             </p>
-            <Link to={""}>Check Menu</Link>
           </div>
-          <span>
-            <h2>寿</h2>
-            <h2>司</h2>
-            <h2>武</h2>
-            <h2>士</h2>
-          </span>
-        </div>
-        <div className="home_initial_section_right">
-          <img src={require("../assets/3_sushi.png")} alt="" />
-          <div className="circle"></div>
+          <div className="card">
+            <img
+              src="https://png.pngtree.com/png-vector/20240127/ourmid/pngtree-man-holding-plate-of-maki-rolls-invites-to-dine-in-japanese-png-image_11555263.png"
+              alt=""
+            />
+            <h4>Hot Deals & Offers</h4>
+            <p>
+              we want to show you same YO!love by giving you dicount off food in
+              our restaurant
+            </p>
+          </div>
+          <div className="card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/008/477/701/non_2x/asian-delivery-man-file-png.png"
+              alt=""
+            />
+            <h4>Hot Deals & Offers</h4>
+            <p>
+              we want to show you same YO!love by giving you dicount off food in
+              our restaurant
+            </p>
+          </div>
         </div>
       </div>
-      <div></div>
-      <div></div>
+      <div className="section_mobileapp">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div></div>
       <div></div>
       <div></div>
