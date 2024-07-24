@@ -1,6 +1,10 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
+import DownloadApp from "../components/DownloadApp";
+import AboutSushiSamurai from "../components/AboutSushiSamurai";
+import WhyUs from "../components/WhyUs";
+import BookingTable from "../components/BookingTable";
 
 const Home = () => {
   window.addEventListener("scroll", () => {
@@ -61,104 +65,55 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="section_why_us">
-        <h2>Why Sushi Samurai?</h2>
-        <div className="card_list">
-          <div className="card">
-            <img
-              src="https://static.vecteezy.com/system/resources/previews/027/141/482/original/plate-of-sushi-created-with-generative-ai-png.png"
-              alt=""
-            />
-            <h4>Hot Deals & Offers</h4>
-            <p>
-              we want to show you same YO!love by giving you dicount off food in
-              our restaurant
-            </p>
-          </div>
-          <div className="card">
-            <img
-              src="https://png.pngtree.com/png-vector/20240127/ourmid/pngtree-man-holding-plate-of-maki-rolls-invites-to-dine-in-japanese-png-image_11555263.png"
-              alt=""
-            />
-            <h4>Hot Deals & Offers</h4>
-            <p>
-              we want to show you same YO!love by giving you dicount off food in
-              our restaurant
-            </p>
-          </div>
-          <div className="card">
-            <img
-              src="https://static.vecteezy.com/system/resources/previews/008/477/701/non_2x/asian-delivery-man-file-png.png"
-              alt=""
-            />
-            <h4>Hot Deals & Offers</h4>
-            <p>
-              we want to show you same YO!love by giving you dicount off food in
-              our restaurant
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="section_mobileapp">
-        <div className="app_download">
-          <h2>All You Need in One App</h2>
-          <Link to={""}>Download</Link>
-        </div>
-        <div className="mobile_img">
-          <img
-            src={require("../assets/mobile.png")}
-            alt="sushisamurai_mobile"
-          />
-          <div className="img_bg_circle"></div>
-          <div className="img_bg_circle_middle"></div>
-          <div className="img_bg_circle"></div>
-        </div>
-        <div className="section_mobileapp_details">
-          <div className="mobile_det">
-            <h3>85+</h3>
-            <span>Sushi Iteam</span>
-          </div>
-          <div className="mobile_det_middle">
-            <h3>1000+</h3>
-            <span>Daily order</span>
-          </div>
-          <div className="mobile_det">
-            <h3>10+</h3>
-            <span>Branches</span>
-          </div>
-        </div>
-      </div>
+      {/* why us  */}
+      <WhyUs />
+      {/* download app  */}
+      <DownloadApp />
       {/* about sushi samurai  */}
-      <div className="about">
-        <div className="about_img">
-          <img
-            src="https://web-assets.limewire.media/u/83e866e7-3b89-48c8-b18c-5cf766fb76b3/9b7899ac-8403-46ac-8ebe-9f6594bb96ab.d/post_image_large.jpeg"
-            alt=""
-          />
-        </div>
-
-        <div className="about_det">
-          <h2>About Sushi Samurai</h2>
-          <p>
-            At restaurant Sushi Samurai We offer meals of eccelent quality and
-            invite you to try delicius food The key of our success is simple
-            providing quality consistent food that taste great every single
-            time. eat delicius food grab a drink .But most of all,relax! We
-            thank you from the bottom of our hearts for you continued support.
-          </p>
-          <div>
-            <img src="" alt="" />
-            {/*TODO: da fare dopo  */}
-          </div>
-        </div>
-      </div>
+      <AboutSushiSamurai />
       <div>food slider</div>
       <div>
-        sezione esperienza ristorante 
+        <div className="imgs">
+          <img src="" alt="" />
+          <img className="floatingImg" src="" alt="" />
+        </div>
+        <div className="xp_details">
+          <h2>The Kura Experience</h2>
+          <ul>
+            {/* TODO:modificare il testo  */}
+            <li>
+              <span>01</span>
+              <h3>Premium Ingredients</h3>
+              <p>
+                from sushi to broths and even deserts, all of our dishes are
+                free of artificial sweeteners,seasonings,preservatives and
+                colorings.
+              </p>
+            </li>
+            <li>
+              <span>02</span>
+              <h3>Premium Ingredients</h3>
+              <p>
+                from sushi to broths and even deserts, all of our dishes are
+                free of artificial sweeteners,seasonings,preservatives and
+                colorings.
+              </p>
+            </li>
+            <li>
+              <span>03</span>
+              <h3>Premium Ingredients</h3>
+              <p>
+                from sushi to broths and even deserts, all of our dishes are
+                free of artificial sweeteners,seasonings,preservatives and
+                colorings.
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div>
-        sezione prenotazioni 
-      </div>
+
+      {/* prenotazioni  */}
+      <BookingTable />
 
       <footer className="footer">
         <div className="footer_download">
