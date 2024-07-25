@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Sushi Samurai - Your Online Sushi Restaurant (work in progress )
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![plot](https://github.com/imash05/sushi_samurai/blob/main/src/assets/preview.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+Sushi Samurai is an innovative frontend website developed using React and SCSS to provide a smooth and modern user experience. The website is themed around a sushi restaurant, with a particular focus on the elegant and intuitive presentation of the menu and services. The UI/UX of the site has been carefully designed based on a design from a talented designer on Dribbble.com.
 
-### `npm start`
+## Key Features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Elegant and Modern Interface:** Leveraging React and SCSS, the site offers a responsive and visually appealing user experience.
+- **Inspired Design:** The UI/UX is crafted following top designs on Dribbble.com, ensuring a professional and modern aesthetic.
+- **Intuitive Navigation:** The user interface is designed to be intuitive, allowing users to explore the restaurant's menu and services with ease.
+- **Responsiveness:** The website is fully responsive, ensuring an optimal experience across all devices, from desktops to smartphones.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Sushi Samurai is the ideal project for those looking for a sushi restaurant website that combines advanced technology and refined design to offer the best possible experience to customers.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
