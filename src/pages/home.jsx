@@ -72,7 +72,10 @@ const Home = () => {
       {/* about sushi samurai  */}
       <AboutSushiSamurai />
       <div>food slider</div>
-      <div>
+
+
+
+      <div   className="sushi_ex"   >
         <div className="imgs">
           <img src="" alt="" />
           <img className="floatingImg" src="" alt="" />
