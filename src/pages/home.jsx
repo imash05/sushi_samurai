@@ -124,7 +124,7 @@ const Home = () => {
 
       <footer className="footer">
         <div className="footer_download">
-          <img src="" alt="" />
+          <img className="footerLimg" src="https://pngimg.com/d/sushi_PNG98815.png" alt="" />
           <div>
             <h3>Download the App</h3>
             <p>
@@ -136,7 +136,7 @@ const Home = () => {
               <Link></Link>
             </div>
           </div>
-          <img src="" alt="" />
+          <img className="footerRimg" src={require('../assets/sus.png')} alt="" />
         </div>
         <div className="footer_content">
           <div className="logo">
