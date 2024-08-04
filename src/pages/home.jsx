@@ -29,7 +29,16 @@ const Home = () => {
       {/* about sushi samurai  */}
       <AboutSushiSamurai />
       {/* food slider / menu  */}
-      <div>food slider</div>
+      <div>
+
+
+        <div>
+          <h1>Cool uniquwe</h1>
+          <Link></Link>
+        </div>
+        <div></div>
+
+      </div>
       {/* esperienza del ristorante */}
       <ShushiXp />
       {/* prenotazioni  */}
